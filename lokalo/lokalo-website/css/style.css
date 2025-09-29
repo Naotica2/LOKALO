@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.main-menu {
+    position: fixed;
+    height: 100vh;
+    background-color: rgb(141, 75, 0);
+    width: 320px;
+    padding: 20px;
+    border-right: 1px solid black;
+}
+.main-menu img {
+    width: 120px;
+    margin-top: -40px;
+    margin-left: 12px;
+}
+.main-menu ul {
+    margin-top: -20px;
+    margin-left: 10px;
+    color: white;
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+.main-menu ul li {
+    margin: -10px 0;
+    font-size: 18px;
+}
+.main-menu a {
+    text-decoration: none;
+    font-size: 50px;
+}
+.main-menu li:hover {
+    color: rgb(163, 158, 154);
+    opacity: 60%;
+}
+.card-main  {
+    margin-left: 42%;
+    width: 570px;
+    height: 420px;
+    background-color: red;
+}
+.search-main {
+    margin-left: 380px;
+    margin-top: 9px;
+}
+.search-main input {
+    padding-left: 25px;
+    width: 380px;
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+    background-color: rgb(215, 235, 253);
+}
+.fa-magnifying-glass {
+    margin-left: -39vh;
+}
